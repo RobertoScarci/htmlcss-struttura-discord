@@ -14,7 +14,7 @@ header{
 }
 
 .center-container{
-    height: 60%;
+    height: 70%;
     width: 70%;
 }
 
@@ -39,14 +39,21 @@ nav{
     background-color: palevioletred;
 }
 
+.grey{
+    background-color: lightgray;
+}
+
 .lightblue{
     background-color: aqua;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .pink{
     background-color: lightpink;
     width: 40%;
     height: 100%;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
 }

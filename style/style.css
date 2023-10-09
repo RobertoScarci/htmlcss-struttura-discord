@@ -1,0 +1,21 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    background-color: lightblue;
+}
+
+.center-container{
+    height: 60%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: goldenrod;
+}

@@ -45,6 +45,7 @@ nav{
 
 .lightblue{
     background-color: aqua;
+    width: 60%;
 }
 
 .pink{
@@ -53,7 +54,38 @@ nav{
     height: 100%;
 }
 
+.green{
+    background-color: green;
+    height: 90%;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+    width: 25%;
+    height: 100%;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+    width: 15%;
+    height: 100%;
+}
+
 .flex-end{
     display: flex;
     justify-content: end;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.row{
+    display: flex;
+    justify-content: row;
 }

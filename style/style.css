@@ -38,3 +38,15 @@ nav{
     height: 70%;
     background-color: palevioletred;
 }
+
+.lightblue{
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pink{
+    background-color: lightpink;
+    width: 40%;
+    height: 100%;
+}

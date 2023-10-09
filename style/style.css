@@ -20,6 +20,27 @@ header{
 
 nav{
     background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    width: 30%;
+    height: 100%;
+    display: flex;
+   align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 100%;
 }
 
 .box{
@@ -29,11 +50,23 @@ nav{
     align-items: center;
 }
 
+.mini-box{
+    background-color: black;
+    height: 100px;
+    border-top: 1px solid white;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
 .blue{
     background-color: blue;
 }
 
-#pink-box{
+.pink-box{
     width: 50%;
     height: 70%;
     background-color: palevioletred;
@@ -75,6 +108,25 @@ nav{
     height: 100%;
 }
 
+.acqua{
+    background-color: aqua;
+    width: 70%;
+    height: 60%;
+}
+
+.sfondo-rosa{
+    background-color: lightcoral;
+    width: 7%;
+    height: 50%;
+    text-align: center;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .flex-end{
     display: flex;
     justify-content: end;
@@ -87,5 +139,9 @@ nav{
 
 .row{
     display: flex;
-    justify-content: row;
+    justify-content: center;
+}
+
+.border-dashed{
+    border-style: dashed;
 }
